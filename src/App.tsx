@@ -1,16 +1,15 @@
 import React from 'react';
 import ApiKeyForm from './components/ApiKeyForm';
-import './App.css';
+import AssistantsList from './components/AssistantsList';
+import './components/styles.css';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>AI Assistant</h1>
-        <ApiKeyForm />
-      </header>
+    <div className="container">
+      <ApiKeyForm />
+      <AssistantsList />
     </div>
   );
-}
+};
 
 export default App; 

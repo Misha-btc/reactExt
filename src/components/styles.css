@@ -1,0 +1,117 @@
+.container {
+  min-width: 400px;
+  padding: 20px;
+}
+
+.assistants-list {
+  margin-top: 20px;
+}
+
+.assistant-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.assistant-card:hover {
+  border-color: #4CAF50;
+}
+
+.assistant-card.active {
+  border-color: #4CAF50;
+  background-color: #e8f5e9;
+}
+
+.assistant-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.assistant-model {
+  font-size: 12px;
+  color: #666;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.button.secondary {
+  background-color: #666;
+  margin-right: 10px;
+}
+
+.button.secondary:hover {
+  background-color: #555;
+}
+
+.add-assistant-btn {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.assistant-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.tools-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tool-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+} 
